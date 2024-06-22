@@ -1,0 +1,66 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+
+.starship-item {
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.starship-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#starship-details {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+#starship-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
